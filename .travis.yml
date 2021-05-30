@@ -27,7 +27,7 @@ deploy:
   provider: elasticbeanstalk
   region: "ap-south-1"
   name: "fibo-calculator"
-  env: "Fibocalculator-env"
+  env: "Fibocalculator-env-1"
   bucket_name: "elasticbeanstalk-ap-south-1-528578360751"
   bucket_path: "fibo-calculator"
   on:
