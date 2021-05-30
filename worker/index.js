@@ -11,8 +11,10 @@ const sub = redisClient.duplicate();
 
 // Actual fibonacci function
 function fib(index) {
+  if (index < 0) return 0;
   if (index == 0) return 0;
   if (index == 1) return 1;
+  if (index > 50) return 0;
 
   var prevPrev = 0;
   var prev = 1;

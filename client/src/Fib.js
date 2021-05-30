@@ -53,7 +53,7 @@ class Fib extends Component {
     return (
       <div>
         <form onSubmit={this.handleSubmit}>
-          <label>Enter your Index: </label>
+          <label>Enter an index between 0 and 50: </label>
           <input
             value={this.state.index}
             onChange={(event) => this.setState({ index: event.target.value })}
